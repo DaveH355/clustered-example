@@ -1,0 +1,9 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+
+
+BreakBeforeBraces: Allman
+IncludeBlocks: Preserve
+SortIncludes: Never
+...

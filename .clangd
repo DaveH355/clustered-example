@@ -1,0 +1,17 @@
+CompileFlags:
+  Add: [-Wall, -Wextra, -Wshadow, -Wpointer-bool-conversion]
+
+Completion:
+  AllScopes: Yes
+
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+
+Index:
+  Background: Build
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes

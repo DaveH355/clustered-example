@@ -1,0 +1,43 @@
+---
+Checks: >-
+  -*,
+  performance-*,
+  cppcoreguidelines-*,
+  bugprone-*,
+  clang-analyzer-*,
+  modernize-*,
+  readability-*,
+
+  # Enabled checks
+  misc-include-cleaner,
+  misc-header-include-cycle,
+  misc-redundant-expression,    
+
+  # Disabled checks
+  -cppcoreguidelines-owning-memory,
+  -cppcoreguidelines-pro-type-vararg,
+  -cppcoreguidelines-pro-bounds-pointer-arithmetic,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-non-private-member-variables-in-classes,
+  -cppcoreguidelines-init-variables,
+  -cppcoreguidelines-avoid-non-const-global-variables,
+  -cppcoreguidelines-pro-type-union-access,
+
+  -bugprone-easily-swappable-parameters,
+
+  -modernize-avoid-c-arrays,
+  -modernize-use-auto,
+  -modernize-use-trailing-return-type,
+  -modernize-use-nodiscard,
+
+  -performance-avoid-endl,
+
+  -readability-braces-around-statements,
+  -readability-function-cognitive-complexity,
+  -readability-uppercase-literal-suffix,
+  -readability-identifier-length,
+  -readability-implicit-bool-conversion,
+  -readability-magic-numbers,
+  -readability-isolate-declaration,
+  -readability-suspicious-call-argument,
+...
